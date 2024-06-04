@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    max-width: 1000px;
+    margin: 20px auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.objective{
+    text-align: justify;
+}
+
+.sidebar {
+    width: 300px;
+    flex-basis: 30%;
+    display: grid;
+    padding: 20px;
+    background-color: #5271ff;
+    color: #ecf0f1;
+    text-align: center;
+    grid-template-rows: 1fr 1fr;
+
+}
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 75%;
+    margin-bottom: 20px;
+}
+
+.profile h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.profile .title {
+    font-size: 18px;
+    color: white;
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+    padding-left: 40px;
+}
+  
+.links a {
+    text-decoration: none;
+}
+  
+.github,.linkedin {
+    /* display: flex; */
+    align-items: center;
+    /* gap: 5px; */
+    color: white;
+}
+
+/* .icon-resize{
+    width: 17px;
+    height: 17px; */
+       
+.contact {
+    margin-top: 20px;
+    /* margin-left: 30px; */
+    text-align: left;
+}
+
+.con-info{
+    color: #acc9c9;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.skills {
+    margin-top: 20px;
+    text-align: left;
+}
+.skill-set{
+    padding-left: 50px;
+}
+
+.certificates {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.icons{
+    width: 10px;
+    height: 10px;
+}
+
+.skills .skill-bar {
+    background-color: white;
+    border-radius: 25px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.skills .skill-level {
+    height: 10px;
+    background-color: #3498db;
+    border-radius: 25px;
+}
+
+.main-content {
+    width: 70%;
+    padding: 20px;
+}
+
+.main-content h2 {
+    color: #2980b9;
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.job, .project, .edu {
+    margin-bottom: 20px;
+}
+
+.job h3, .project h3, .edu h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.job h4, .project p, .edu p {
+    margin: 5px 0;
+    color: #7f8c8d;
+}
